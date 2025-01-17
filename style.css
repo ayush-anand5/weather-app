@@ -8,12 +8,6 @@
     
 }
 
-/* icon colour = #4382ec
-background colour= #bbd6fd
-between colour = #e3efff
-other icon colour white = #ffffff
-text = #79797a */
-
 body{
     min-height: 100vh;
     display: flex;
@@ -138,7 +132,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-block: 20px;
+    margin: 20px auto 30px;
 }
 .weatherBody img{
     padding: 20px;
@@ -147,12 +141,11 @@ body{
 
 }
 .weatherBox{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    /* width: fit-content; */
+    width: 100%;
     text-align: center;
     margin-block: 10px;
-    margin-right: 130px;
     position: relative;
 }
 .weatherBox .currentTemp{
@@ -172,33 +165,31 @@ body{
     text-transform: capitalize;
 }
 .weatherBox .minMax{
-    margin-top: 6px;
+    margin-top: 8px;
     font-size: 2rem;
     font-weight: 560;
     text-transform: capitalize;
 }
 
 /* ------------------------------------------------------ */
+.weather-location{
+    position: absolute;
+    bottom: -50px;
+    left: 90px;
+}
 .location {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
+    /* gap: 10px; */
     font-size: 1.5rem;
     margin: 10px 0;
     border-radius: 12px;
     color: #000;
     text-transform: capitalize;
 }
-.weather-location{
-    position: absolute;
-    bottom: -50px;
-    left: -50px;
-}
-
 .location img {
     padding: 0;
-    width: 25px;
+    width: 30px;
     height: auto;
 }
 
