@@ -8,12 +8,6 @@
     
 }
 
-/* icon colour = #4382ec
-background colour= #bbd6fd
-between colour = #e3efff
-other icon colour white = #ffffff
-text = #79797a */
-
 body{
     min-height: 100vh;
     display: flex;
